@@ -1,0 +1,73 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "almominoptics",
+    "dateExported": "2023-03-16T05:59:00.122Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c39b7811-20a5-479d-b2d2-80e4feab9cdc",
+            "colId": "6906ad49-f77f-4c39-b5bd-4c142d471f69",
+            "containerId": "",
+            "name": "Add Products",
+            "url": "",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-03-12T21:47:53.706Z",
+            "modified": "2023-03-12T21:47:53.706Z",
+            "headers": []
+        },
+        {
+            "_id": "2457f449-8e9d-42b4-85d7-ecda275c7edf",
+            "colId": "6906ad49-f77f-4c39-b5bd-4c142d471f69",
+            "containerId": "",
+            "name": "Add Products",
+            "url": "http://localhost:3000/api/addproducts",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-03-12T21:49:05.446Z",
+            "modified": "2023-03-13T03:17:44.086Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "[{\n      \"title\":\"Rayban Waferer-2\",\n      \"slug\": \"sunglasses-rayban-2\",\n      \"desc\": \"req.body[i].desc\",\n      \"img\": \"req.body[i]. img\",\n      \"category\": \"req.body[i].category\",\n      \"size\":\" req.body[i].size\",\n      \"color\": \"req.body[i].color\",\n      \"price\": 2599,\n      \"availableQty\":1 \n}]\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9a89bdf7-e60e-4e24-b364-017bb588eb2e",
+            "colId": "6906ad49-f77f-4c39-b5bd-4c142d471f69",
+            "containerId": "",
+            "name": "Get Products",
+            "url": "http://localhost:3000/api/getproducts",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-03-13T03:16:32.654Z",
+            "modified": "2023-03-15T08:24:34.943Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b40deeaa-a36d-4e09-b2c9-e941e2ff7018",
+            "colId": "6906ad49-f77f-4c39-b5bd-4c142d471f69",
+            "containerId": "",
+            "name": "Update Products",
+            "url": "http://localhost:3000/api/updateproducts",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-03-15T08:24:57.169Z",
+            "modified": "2023-03-15T08:34:42.678Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "[    {\n      \"_id\": \"640e4c2e08f4c5210c054ed7\",\n      \"title\": \"Rayban Waferer---amo\",\n      \"slug\": \"sunglasses-rayban\",\n      \"desc\": \"req.body[i].desc\",\n      \"img\": \"req.body[i]. img\",\n      \"category\": \"req.body[i].category\",\n      \"size\": \" req.body[i].size\",\n      \"color\": \"req.body[i].color\",\n      \"price\": 2599,\n      \"availableQty\": 1,\n      \"createdAt\": \"2023-03-12T22:03:26.510Z\",\n      \"updatedAt\": \"2023-03-12T22:03:26.510Z\",\n      \"__v\": 0\n    },\n    {\n      \"_id\": \"640e95d808f4c5210c054ede\",\n      \"title\": \"Rayban Waferer-Hassan2\",\n      \"slug\": \"sunglasses-rayban-2\",\n      \"desc\": \"req.body[i].desc\",\n      \"img\": \"req.body[i]. img\",\n      \"category\": \"req.body[i].category\",\n      \"size\": \" req.body[i].size\",\n      \"color\": \"req.body[i].color\",\n      \"price\": 2599,\n      \"availableQty\": 1,\n      \"createdAt\": \"2023-03-13T03:17:44.078Z\",\n      \"updatedAt\": \"2023-03-13T03:17:44.078Z\",\n      \"__v\": 0\n    }]",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
